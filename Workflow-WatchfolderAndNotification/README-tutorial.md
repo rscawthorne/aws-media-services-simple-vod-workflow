@@ -428,7 +428,7 @@ Manually checking the status of jobs in the MediaConvert console is great for ad
 
 #### Background
 
-SNS Topics allow producers to publish information and consumers to subscribe to the topic to recieve updates. We'll create a topic that we can put messages about the progress of MediaConvert jobs triggered by this workflow.
+SNS Topics allow producers to publish information, and for consumers to subscribe to the topic to recieve updates. We'll create a topic that we can put messages about the progress of MediaConvert jobs triggered by this workflow.
 
 #### High-Level Instructions
 
