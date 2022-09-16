@@ -22,7 +22,7 @@ Create an IAM Policy and name it `vod-MediaConvertUserPolicy`.  Use inline polic
                 "mediaconvert:*"
             ],
             "Resource": [
-                "arn:aws:mediaconvert:*"
+                "arn:aws:mediaconvert:*:*:*"
             ]
         },
         {
@@ -32,7 +32,7 @@ Create an IAM Policy and name it `vod-MediaConvertUserPolicy`.  Use inline polic
                 "iam:PassRole"
             ],
             "Effect": "Allow",
-            "Resource": "arn:aws:iam::*"
+            "Resource": "arn:aws:iam::*:*"
         },
         {
             "Sid": "ListWriteS3Buckets",
